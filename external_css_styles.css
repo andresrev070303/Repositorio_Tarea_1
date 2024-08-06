@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Fondo blanco */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9; /* Fondo del contenedor */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+h1 {
+    color: #333; /* Color del texto */
+}
+
+#hangmanCanvas {
+    border: 2px solid #333; /* Borde del canvas */
+    margin: 20px 0;
+}
+
+.letter-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50; /* Color del botón */
+    color: #fff; /* Color del texto */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.letter-button:hover {
+    background-color: #45a049; /* Color del botón al pasar el ratón */
+}

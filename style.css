@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif; /* Cambiar la fuente de la letra */
+    background-color: #ffffff; /* Fondo blanco */
+    text-align: center; /* Centrar el contenido */
+}
+
+h1 {
+    color: #333333; /* Color del texto */
+}
+
+#output {
+    font-size: 24px; /* Tamaño del texto de salida */
+}
+
+#letra {
+    font-size: 18px; /* Tamaño del texto en el input */
+}
+
+button {
+    font-size: 18px; /* Tamaño del texto en el botón */
+}
+
+#intentosRestantes {
+    font-size: 20px; /* Tamaño del texto de intentos restantes */
+}
+
+#munieco {
+    max-width: 300px; /* Controlar el tamaño de la imagen del muñeco */
+}
+
+#tablero {
+    font-size: 36px; /* Tamaño del texto del tablero */
+    margin-top: 20px; /* Espacio entre el tablero y el muñeco */
+}
